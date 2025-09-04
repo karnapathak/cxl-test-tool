@@ -61,7 +61,7 @@ cxl-tool.py --build-qemu
 
 ## git clone, configure and compile linux kernel
 cxl-tool.py --setup-kernel
-
+cxl-tool.py --build-kernel
 ## run qemu
 cxl-tool.py --run -A kvm -T m2 
 
